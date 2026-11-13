@@ -1,0 +1,353 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Michaela Garcia — virtual assistant specializing in administration, WordPress, SEO and digital marketing."><title>Michaela Garcia | Virtual Assistant Portfolio</title><style>
+:root{--ink:#172638;--muted:#64748b;--blue:#2864a8;--pale:#edf5fb;--line:#dce6ef;--white:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.65 Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:#f8fafc}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.nav{position:sticky;top:0;z-index:5;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.navin{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:72px}.brand{font-weight:800;letter-spacing:-.04em;font-size:21px}.brand span{color:var(--blue)}.links{display:flex;gap:23px;flex-wrap:wrap;font-size:13px;font-weight:650}.links a:hover{color:var(--blue)}.hero{background:linear-gradient(125deg,#eaf4fd 0%,#f8fbff 62%,#e8f2fa 100%);padding:90px 0 80px}.hero-grid{display:grid;grid-template-columns:1.4fr .75fr;gap:75px;align-items:center}.eyebrow{font-size:12px;font-weight:800;color:var(--blue);letter-spacing:.14em;text-transform:uppercase}h1{font-size:clamp(39px,5vw,67px);line-height:1.09;letter-spacing:-.055em;margin:17px 0}h1 em{font-style:normal;color:var(--blue)}.lead{font-size:18px;color:#51647b;max-width:640px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-block;padding:12px 20px;background:var(--blue);color:white;border-radius:9px;border:1px solid var(--blue);font:700 14px Inter,Segoe UI,Arial,sans-serif;cursor:pointer}.btn.secondary{background:white;color:var(--blue)}.photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:25px;box-shadow:22px 22px 0 #d6e9f8}.stats{display:flex;gap:24px;flex-wrap:wrap;margin-top:35px;font-size:13px;color:var(--muted)}.stats b{display:block;font-size:19px;color:var(--ink)}section{padding:78px 0}.section-top{margin-bottom:28px}.section-top h2{font-size:clamp(29px,3vw,39px);letter-spacing:-.045em;line-height:1.2;margin:8px 0}.section-top p{color:var(--muted);max-width:730px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:25px;box-shadow:0 5px 20px #233c5908}.card h3{margin:10px 0 8px;font-size:18px}.card p,.card li{font-size:14px;color:#5c6c7e}.symbol{display:grid;place-items:center;width:43px;height:43px;border-radius:12px;background:var(--pale);color:var(--blue);font-weight:800}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.tag{font-size:12px;font-weight:650;color:#35638f;background:#eaf3fa;padding:4px 9px;border-radius:6px}.alt{background:#eff5f9}.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.project{overflow:hidden;padding:0}.project-visual{height:165px;background:linear-gradient(135deg,#d6eafa,#f0f6fc);display:flex;align-items:center;justify-content:center;color:#32669b;font-size:45px;font-weight:800}.project-body{padding:24px}.project-body p{min-height:68px}.project-body a:not(.btn){font-size:13px;font-weight:750;color:var(--blue)}.timeline{display:grid;gap:14px}.job{background:white;border:1px solid var(--line);padding:22px 26px;border-radius:12px}.job-head{display:flex;justify-content:space-between;gap:15px;align-items:baseline}.job h3{margin:0;font-size:18px}.job small{color:var(--muted)}.job p{color:#607086;font-size:14px;margin:7px 0 0}.code-layout{display:grid;grid-template-columns:1fr 1fr;gap:16px}.editor,.preview{border:1px solid #ccdbe8;background:white;border-radius:13px;overflow:hidden}.panel-head{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#e9f1f8;font-weight:750;font-size:13px}.panel-head button{border:0;background:var(--blue);color:white;padding:7px 12px;border-radius:6px;cursor:pointer}textarea{width:100%;height:320px;border:0;padding:18px;resize:vertical;background:#152338;color:#dbeafe;font:13px/1.65 Consolas,Monaco,monospace;outline:0}iframe{display:block;width:100%;height:320px;border:0;background:white}.note{font-size:13px;color:#607086;margin-top:12px}.contact{background:#172e48;color:white;text-align:center}.contact h2{font-size:37px;margin:10px 0}.contact p{color:#c8d9ea}.contact .btn{background:white;color:#234e7a;border-color:white}.footer{padding:24px 0;background:#11253a;color:#b6c6d7;font-size:13px;text-align:center}@media(max-width:850px){.hero-grid{grid-template-columns:1fr;gap:35px}.photo{max-width:320px}.grid{grid-template-columns:repeat(2,1fr)}.code-layout{grid-template-columns:1fr}.links{gap:12px}}@media(max-width:580px){.navin{align-items:flex-start;padding:15px 0;flex-direction:column;gap:8px}.links{font-size:12px}.hero{padding:55px 0}.grid,.project-grid{grid-template-columns:1fr}.job-head{display:block}section{padding:55px 0}}
+/* ---------- Buttons & project actions ---------- */
+:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:8px;transition:background .2s,transform .2s,box-shadow .2s}
+.btn:hover{background:#1f5290;border-color:#1f5290;transform:translateY(-1px);box-shadow:0 8px 18px #2864a82e}
+.btn.secondary:hover{background:var(--pale);color:var(--blue)}
+.contact .btn:hover{background:#eaf3fa;color:#234e7a}
+.btn svg{width:17px;height:17px;fill:currentColor;flex-shrink:0}
+.btn.sm{padding:10px 16px;font-size:13px}
+.project-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+/* ---------- Creative gallery + lightbox ---------- */
+.project.wide{grid-column:1/-1}
+.project.wide .project-body>p{min-height:0}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}
+.shot{margin:0}
+.shot-btn{position:relative;display:block;overflow:hidden;border-radius:12px;background:var(--pale);cursor:zoom-in}
+.shot-btn img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;transition:transform .4s}
+.shot-btn:hover img{transform:scale(1.04)}
+.shot-btn::after{content:"View full size";position:absolute;right:10px;bottom:10px;padding:5px 11px;border-radius:999px;background:#172638d9;color:#fff;font-size:12px;font-weight:700;opacity:0;transition:opacity .2s}
+.shot-btn:hover::after,.shot-btn:focus-visible::after{opacity:1}
+.shot figcaption{padding:12px 2px 0}
+.shot-cat{display:block;margin-bottom:2px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}
+.shot-title{display:block;font-size:15px}
+.shot-desc{display:block;font-size:13px;color:#5c6c7e}
+.lightbox{width:min(880px,calc(100% - 32px));max-height:calc(100vh - 32px);padding:0;border:0;border-radius:16px;background:#0f1b2b;color:#fff;box-shadow:0 30px 80px #0009}
+.lightbox::backdrop{background:#0b1522d9;backdrop-filter:blur(4px)}
+.lightbox figure{margin:0}
+.lightbox img{display:block;width:100%;max-height:calc(100vh - 140px);object-fit:contain;background:#fff}
+.lightbox figcaption{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 18px}
+.lightbox figcaption b{display:block;font-size:15px}
+.lightbox figcaption span{font-size:13px;color:#b6c6d7}
+.lb-nav{display:flex;gap:8px;flex-shrink:0}
+.lb-nav button,.lb-close{display:grid;place-items:center;width:40px;height:40px;border:1px solid #ffffff40;border-radius:50%;background:#172638cc;color:#fff;font-size:20px;line-height:1;cursor:pointer}
+.lb-nav button:hover,.lb-close:hover{background:#2864a8}
+.lb-close{position:absolute;top:10px;right:10px}
+/* ---------- Interactive live chat showcase ---------- */
+.demo-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:32px;align-items:start}
+.journey{display:grid;gap:10px;margin:0;padding:0;list-style:none;counter-reset:step}
+.journey li{display:grid;grid-template-columns:38px 1fr;gap:14px;align-items:center;padding:13px 16px;border:1px solid var(--line);border-radius:12px;background:#fff;color:#64748b;transition:border-color .25s,box-shadow .25s,color .25s}
+.journey li::before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--pale);color:var(--blue);font-weight:800}
+.journey li.is-done{color:var(--ink)}
+.journey li.is-done::before{content:"✓";background:#dff3e8;color:#1f7a4d}
+.journey li.is-active{color:var(--ink);border-color:var(--blue);box-shadow:0 8px 24px #2864a81f}
+.journey li.is-active::before{background:var(--blue);color:#fff}
+.journey b{display:block;font-size:15px}
+.journey span{display:block;font-size:13px;color:#5c6c7e}
+.demo-points{margin-top:16px;padding:18px 20px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.demo-points b{display:block;margin-bottom:6px;font-size:14px}
+.demo-points ul{margin:0;padding-left:18px;font-size:14px;color:#5c6c7e}
+.device{overflow:hidden;border:1px solid #ccdbe8;border-radius:16px;background:#fff;box-shadow:0 20px 50px #233c5914}
+.device-bar{display:flex;align-items:center;gap:7px;padding:11px 14px;background:#e9f1f8;border-bottom:1px solid #d5e2ee}
+.device-bar i{width:10px;height:10px;border-radius:50%;background:#c3d3e3}
+.device-url{flex:1;min-width:0;margin-left:8px;padding:5px 12px;border-radius:7px;background:#fff;color:#64748b;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.device-body{position:relative;height:580px;background:linear-gradient(180deg,#f6f9fc,#eef4f9)}
+.faux{display:grid;gap:12px;padding:26px}
+.faux i{display:block;height:12px;border-radius:6px;background:#dde7f0}
+.faux .h{width:60%;height:22px;background:#c9d8e6}.faux .w80{width:80%}.faux .w50{width:50%}.faux .blk{height:110px;border-radius:12px;background:#e3ecf4}
+.chat{position:absolute;top:16px;right:16px;bottom:16px;width:min(360px,calc(100% - 32px));display:flex;flex-direction:column;overflow:hidden;border-radius:14px;background:#fff;box-shadow:0 18px 40px #17263833}
+.chat-head{display:flex;align-items:center;gap:10px;padding:12px 14px;background:var(--blue);color:#fff}
+.chat-avatar{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#ffffff2e;font-weight:800}
+.chat-head b{display:block;font-size:14px;line-height:1.2}
+.chat-head small{font-size:12px;color:#d8e8f8}
+.chat-head small::before{content:"";display:inline-block;width:7px;height:7px;margin-right:6px;border-radius:50%;background:#4ade80}
+.chat-restart{margin-left:auto;padding:5px 10px;border:1px solid #ffffff66;border-radius:7px;background:transparent;color:#fff;font:700 12px Inter,Segoe UI,Arial,sans-serif;cursor:pointer}
+.chat-restart:hover{background:#ffffff1f}
+.chat-log{flex:1;display:flex;flex-direction:column;gap:8px;overflow-y:auto;padding:14px;background:#f8fafc}
+.msg{max-width:86%;padding:9px 13px;border-radius:14px;font-size:14px;line-height:1.5;overflow-wrap:anywhere;animation:pop .25s ease-out}
+.msg.bot{align-self:flex-start;background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px}
+.msg.user{align-self:flex-end;background:var(--blue);color:#fff;border-bottom-right-radius:4px}
+.sys{align-self:center;padding:4px 11px;border-radius:999px;background:#e9f1f8;color:#64748b;font-size:12px}
+.typing{align-self:flex-start;display:flex;gap:4px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.typing i{width:6px;height:6px;border-radius:50%;background:#94a3b8;animation:blink 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+.summary{padding:12px 14px;border:1px solid #cfe3d7;border-radius:12px;background:#f1faf4;font-size:13px;animation:pop .25s ease-out}
+.summary dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:6px 0 0}
+.summary dt{color:#5c6c7e}.summary dd{margin:0;font-weight:700;overflow-wrap:anywhere}
+.chat-options{display:flex;flex-wrap:wrap;gap:8px;padding:12px 14px 4px;background:#fff;border-top:1px solid var(--line)}
+.chat-options:empty{display:none}
+.chip{padding:8px 13px;border:1px solid var(--blue);border-radius:999px;background:#fff;color:var(--blue);font:700 13px Inter,Segoe UI,Arial,sans-serif;cursor:pointer;transition:background .2s,color .2s}
+.chip:hover{background:var(--blue);color:#fff}
+.chat-compose{display:flex;gap:8px;padding:10px 12px;background:#fff;border-top:1px solid var(--line)}
+.chat-options:not(:empty)+.chat-compose{border-top:0}
+.chat-compose input{flex:1;min-width:0;padding:10px 14px;border:1px solid #ccdbe8;border-radius:999px;background:#f8fafc;color:var(--ink);font:14px Inter,Segoe UI,Arial,sans-serif}
+.chat-compose input:focus{outline:2px solid #b9d4ee;border-color:var(--blue);background:#fff}
+.chat-compose button{display:grid;place-items:center;flex-shrink:0;width:40px;height:40px;border:0;border-radius:50%;background:var(--blue);color:#fff;cursor:pointer}
+.chat-compose button:disabled{opacity:.45;cursor:default}
+.chat-compose svg{width:18px;height:18px;fill:currentColor}
+.chat-foot{padding:6px 14px 8px;background:#fff;color:#64748b;font-size:11px;text-align:center}
+@keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes blink{0%,80%,100%{opacity:.3}40%{opacity:1}}
+@media(max-width:850px){.demo-grid{grid-template-columns:1fr}}
+@media(max-width:580px){.gallery{grid-template-columns:1fr}.faux{display:none}.chat{inset:0;width:auto;border-radius:0;box-shadow:none}.device-body{height:560px}.lightbox figcaption{flex-direction:column;align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style></head><body>
+<header class="nav"><div class="wrap navin"><a href="#home" class="brand">Michaela<span>.</span></a><nav class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#gallery">Gallery</a><a href="#chat-demo">Live Chat Demo</a><a href="#code">Code Lab</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav></div></header>
+<main><div class="hero" id="home"><div class="wrap hero-grid"><div><div class="eyebrow">Virtual Assistant · Website Support · Digital Marketing</div><h1>Organized support.<br><em>Creative solutions.</em></h1><p class="lead">Hi, I'm Michaela — a versatile virtual assistant helping businesses stay organized, improve their websites, and create clear, engaging digital content.</p><div class="actions"><a class="btn" href="#projects">Explore my work</a><a class="btn secondary" href="#contact">Work with me</a></div><div class="stats"><div><b>WordPress & SEO</b>Website support</div><div><b>Admin & Operations</b>Documentation and coordination</div><div><b>Canva & Content</b>Digital marketing</div></div></div><div><img class="photo" src="MichaelaGarcia_Web_800x800.jpg" alt="Professional portrait of Michaela Garcia" width="800" height="800" fetchpriority="high"></div></div></div>
+<section id="about"><div class="wrap"><div class="section-top"><div class="eyebrow">About me</div><h2>One reliable partner for the details that matter.</h2><p>My background combines administrative operations, customer communication, social media content, website updates, and event coordination. I bring a practical, detail-oriented approach to supporting busy teams and business owners.</p></div><div class="tags"><span class="tag">WordPress</span><span class="tag">Basic HTML / CSS</span><span class="tag">On-page SEO</span><span class="tag">Canva</span><span class="tag">Social Media Calendars</span><span class="tag">Reporting</span><span class="tag">Customer Support</span><span class="tag">SOP Documentation</span></div></div></section>
+<section id="services" class="alt"><div class="wrap"><div class="section-top"><div class="eyebrow">What I do</div><h2>Services & skills</h2></div><div class="grid"><article class="card"><div class="symbol">01</div><h3>Administrative Support</h3><p>Reports, document preparation, online research, file organization, schedules, and task coordination.</p></article><article class="card"><div class="symbol">02</div><h3>Website Management</h3><p>WordPress updates, service pages, content uploads, responsive layouts, and basic HTML/CSS changes.</p></article><article class="card"><div class="symbol">03</div><h3>SEO Support</h3><p>Search-friendly website content, on-page structure, and Lighthouse-based performance reviews.</p></article><article class="card"><div class="symbol">04</div><h3>Social Media</h3><p>Content calendars, captions, poster concepts, campaign coordination, and video editing.</p></article><article class="card"><div class="symbol">05</div><h3>Graphic Design</h3><p>Canva marketing assets, digital posters, brochures, and branded promotional materials.</p></article><article class="card"><div class="symbol">06</div><h3>Customer & Operations</h3><p>Inquiry handling, live chat support, supplier coordination, SOPs, and operational documentation.</p></article></div></div></section>
+<section id="projects"><div class="wrap"><div class="section-top"><div class="eyebrow">Selected work</div><h2>Projects that show how I work</h2><p>Live website work, social media content, operations documentation, creative samples, and an interactive customer-journey demo.</p></div><div class="project-grid">
+<article class="card project"><div class="project-visual" aria-hidden="true">&lt;/&gt;</div><div class="project-body"><h3>Bigleap Technologies — WordPress Website</h3><p>Service page updates, content organization, mobile layout improvements, and customer inquiry features.</p><div class="tags"><span class="tag">WordPress</span><span class="tag">SEO</span><span class="tag">HTML/CSS</span></div><div class="project-actions"><a class="btn sm" href="https://bigleap.biz/" target="_blank" rel="noopener noreferrer">Visit bigleap.biz <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></div></div></article>
+<article class="card project"><div class="project-visual" aria-hidden="true">✦</div><div class="project-body"><h3>Social Media &amp; Campaign Content</h3><p>Poster concepts, social media calendars, video editing, captions, and marketing creatives for IAM AI and other projects.</p><div class="tags"><span class="tag">Canva</span><span class="tag">Content Planning</span><span class="tag">Video</span></div><div class="project-actions"><a class="btn sm" href="https://www.youtube.com/@michaelagarcia5725" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>Watch on YouTube <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></div></div></article>
+<article class="card project"><div class="project-visual" aria-hidden="true">▤</div><div class="project-body"><h3>Administrative &amp; Operations Systems</h3><p>Reporting formats, operational checklists, scheduling documents, and SOP support for cross-functional teams.</p><div class="tags"><span class="tag">Documentation</span><span class="tag">Operations</span></div><div class="project-actions"><a class="btn sm" href="mailto:michaelav.garcia@yahoo.com?subject=Request%20for%20Administrative%20%26%20Operations%20Work%20Samples"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>Email to request work samples</a></div></div></article>
+<article class="card project"><div class="project-visual" aria-hidden="true">◎</div><div class="project-body"><h3>Website Live Chat &amp; Customer Journey</h3><p>Customer inquiry workflows, chat greetings, and quotation request pathways for a business website.</p><div class="tags"><span class="tag">Customer Support</span><span class="tag">Website UX</span></div><div class="project-actions"><a class="btn sm" href="#chat-demo">Try the interactive demo <span aria-hidden="true">↓</span></a></div></div></article>
+<article class="card project wide" id="gallery"><div class="project-body"><h3>Creative Gallery</h3><p>Product photography, poster design, and catalogue layouts for cosmetics products. Select an image to view it full size.</p><div class="tags"><span class="tag">Product Photography</span><span class="tag">Poster Design</span><span class="tag">Catalogue Layout</span></div><div class="gallery">
+<figure class="shot"><a class="shot-btn" href="photoshoot.webp"><img src="photoshoot.webp" alt="Product photo of stacked cosmetic jars in pink, red and light blue on a white background" width="1080" height="1080" loading="lazy" decoding="async"></a><figcaption><span class="shot-cat">Professional Photoshoot</span><b class="shot-title">Cosmetic jar product shoot</b><span class="shot-desc">Pastel and jewel-toned jars styled on a clean, bright backdrop.</span></figcaption></figure>
+<figure class="shot"><a class="shot-btn" href="Poster.webp"><img src="Poster.webp" alt="Butter Lip Treat poster for a tinted moisturizing lip oil, with 12 shade swatches on an arm above the bottles" width="1080" height="1080" loading="lazy" decoding="async"></a><figcaption><span class="shot-cat">Poster Designs</span><b class="shot-title">Butter Lip Treat launch poster</b><span class="shot-desc">Tinted lip oil poster with arm swatches for 12 named shades.</span></figcaption></figure>
+<figure class="shot"><a class="shot-btn" href="Product%20catalogue.webp"><img src="Product%20catalogue.webp" alt="IAM AI facial serums catalogue page showing six serum variants, product codes and MOQ pricing tiers" width="1080" height="1080" loading="lazy" decoding="async"></a><figcaption><span class="shot-cat">Product Catalogue</span><b class="shot-title">IAM AI facial serums catalogue</b><span class="shot-desc">Variant line-up, product codes, and MOQ price tiers on one page.</span></figcaption></figure>
+</div></div></article>
+</div></div></section>
+<section id="chat-demo" class="alt"><div class="wrap"><div class="section-top"><div class="eyebrow">Interactive project showcase</div><h2>Website Live Chat &amp; Customer Journey</h2><p>A working demo of the live chat flow I set up for business websites: greet the visitor, understand what they need, capture their details, and hand a clear inquiry to the sales team. Tap a quick reply or type your own message to try it.</p></div>
+<div class="demo-grid"><div><ol class="journey" id="journey">
+<li><div><b>Visitor arrives</b><span>A potential customer lands on a service page.</span></div></li>
+<li><div><b>Friendly greeting</b><span>The chat opens with a short, welcoming message.</span></div></li>
+<li><div><b>Understand the need</b><span>Quick replies or typed questions route the inquiry.</span></div></li>
+<li><div><b>Capture details</b><span>Name and email are collected for follow-up.</span></div></li>
+<li><div><b>Hand-off &amp; follow-up</b><span>The sales team receives a clear inquiry summary.</span></div></li>
+</ol><div class="demo-points"><b>What this demonstrates</b><ul><li>A warm, consistent greeting and tone</li><li>Fewer steps from question to quotation request</li><li>A clear path to a real person</li><li>Organized lead details for faster follow-up</li></ul></div></div>
+<div class="device"><div class="device-bar" aria-hidden="true"><i></i><i></i><i></i><span class="device-url">www.example.com/services</span></div><div class="device-body"><div class="faux" aria-hidden="true"><i class="h"></i><i class="w80"></i><i class="w50"></i><i class="blk"></i><i class="w80"></i><i class="w50"></i><i class="blk"></i></div>
+<div class="chat" role="region" aria-label="Live chat demo"><div class="chat-head"><span class="chat-avatar" aria-hidden="true">S</span><div><b>Sales Support</b><small>Online now</small></div><button class="chat-restart" id="chat-restart" type="button">Restart</button></div><div class="chat-log" id="chat-log" role="log" aria-live="polite"><noscript><p class="msg bot">Turn on JavaScript to try the interactive demo.</p></noscript></div><div class="chat-options" id="chat-options"></div><form class="chat-compose" id="chat-compose" autocomplete="off"><label class="sr" for="chat-text">Type a message</label><input id="chat-text" type="text" maxlength="120" placeholder="Type a message…" readonly><button type="submit" aria-label="Send message" disabled><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2z"/></svg></button></form><div class="chat-foot">Demo only: nothing you type is sent or stored.</div></div>
+</div></div></div></div></section>
+<section id="code"><div class="wrap"><div class="section-top"><div class="eyebrow">Interactive code showcase</div><h2>My Code Lab</h2><p>Paste your own HTML and CSS below and select <strong>Run preview</strong> to demonstrate your work. Your edits are saved in this browser on this device only. To publish a finished project permanently, edit this site's HTML source and upload the updated files.</p></div><div class="code-layout"><div class="editor"><div class="panel-head"><span>HTML / CSS editor</span><button id="run">Run preview</button></div><textarea id="source" spellcheck="false" aria-label="HTML and CSS code editor"></textarea></div><div class="preview"><div class="panel-head"><span>Live preview</span><button id="reset">Reset sample</button></div><iframe id="output" title="Code preview" sandbox="allow-scripts"></iframe></div></div><p class="note">Only paste code you trust. The preview is isolated from the main portfolio. JavaScript may run inside the preview, but external resources might be blocked by the browser or hosting provider.</p></div></section>
+<section id="experience" class="alt"><div class="wrap"><div class="section-top"><div class="eyebrow">Professional background</div><h2>Experience</h2></div><div class="timeline"><div class="job"><div class="job-head"><h3>Website, Marketing & Administrative Support — Bigleap Technologies / BFPI</h3><small>Mar 2025 – Nov 2026</small></div><p>WordPress updates, website content, on-page SEO support, marketing graphics, inquiry coordination, and reports.</p></div><div class="job"><div class="job-head"><h3>Social Media Specialist — IAM AI</h3><small>Nov 2024 – Feb 2025</small></div><p>Social media content creation, video editing, promotional poster concepts, and content calendar planning.</p></div><div class="job"><div class="job-head"><h3>Social Media, Marketing & Operations — Meta Animals / Manalo K9 / Manalo Resort Hotel</h3><small>Mar 2023 – Aug 2024</small></div><p>Content planning, promotional campaigns, event coordination, customer communications, schedules, and operational documents.</p></div><div class="job"><div class="job-head"><h3>Buffet Service Crew / Pantry — Dusit Thani</h3><small>Apr 2022 – Aug 2022</small></div><p>Buffet service support, pantry preparation, guest assistance, and service-team coordination.</p></div></div></div></section>
+<section id="learning"><div class="wrap"><div class="section-top"><div class="eyebrow">Continuous learning</div><h2>Professional development</h2><p>Courses I'm interested in pursuing. These are <strong>learning goals, not completed certifications</strong>.</p></div><div class="grid"><article class="card"><h3>Digital Marketing</h3><p>HubSpot Academy — planned learning</p><a href="https://academy.hubspot.com/courses/digital-marketing" target="_blank" rel="noopener noreferrer">Explore course ↗</a></article><article class="card"><h3>Analytics & SEO</h3><p>Google Skillshop — planned learning</p><a href="https://skillshop.withgoogle.com/" target="_blank" rel="noopener noreferrer">Explore training ↗</a></article><article class="card"><h3>AI & Workflow Automation</h3><p>Make Academy — planned learning</p><a href="https://academy.make.com/" target="_blank" rel="noopener noreferrer">Explore academy ↗</a></article></div></div></section>
+<section id="contact" class="contact"><div class="wrap"><div class="eyebrow" style="color:#a7d5ff">Let's collaborate</div><h2>Need a reliable virtual assistant?</h2><p>Available for remote opportunities in administrative support, WordPress, digital marketing, and operations.</p><div class="actions" style="justify-content:center"><a class="btn" href="mailto:michaelav.garcia@yahoo.com">Email me</a><a class="btn secondary" href="https://www.linkedin.com/in/michaela-garcia-262689232/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></div></div></section></main>
+<dialog class="lightbox" id="lightbox" aria-labelledby="lb-title"><button class="lb-close" type="button" aria-label="Close image">×</button><figure><img alt=""><figcaption><div><b id="lb-title"></b><span id="lb-desc"></span></div><div class="lb-nav"><button class="lb-prev" type="button" aria-label="Previous image">‹</button><button class="lb-next" type="button" aria-label="Next image">›</button></div></figcaption></figure></dialog><footer class="footer">© <span id="year"></span> Michaela Garcia · Virtual Assistant Portfolio</footer>
+<!-- Each feature has its own script block, so a problem in one never stops the others. -->
+<script>
+const sample=`<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<style>\n  body { font-family: Arial, sans-serif; padding: 25px; background: #f3f8fd; }\n  .box { padding: 24px; background: white; border-radius: 12px; box-shadow: 0 5px 20px #d9e5f2; }\n  h2 { color: #245d98; }\n  button { background: #245d98; color: white; border: 0; padding: 10px 16px; border-radius: 6px; }\n</style>\n</head>\n<body>\n<div class="box">\n  <h2>Website Project Demo</h2>\n  <p>Replace this sample with your own HTML and CSS.</p>\n  <button>Request a Quotation</button>\n</div>\n</body>\n</html>`;
+const editor=document.getElementById('source'),output=document.getElementById('output');try{editor.value=localStorage.getItem('michaela-code')||sample}catch(e){editor.value=sample}function run(){output.srcdoc=editor.value;try{localStorage.setItem('michaela-code',editor.value)}catch(e){}}document.getElementById('run').addEventListener('click',run);document.getElementById('reset').addEventListener('click',()=>{editor.value=sample;run()});document.getElementById('year').textContent=new Date().getFullYear();run();
+</script>
+<script>
+/* ---------- Creative gallery lightbox ---------- */
+(function () {
+  var dlg = document.getElementById('lightbox');
+  if (!dlg || typeof dlg.showModal !== 'function') return; // older browsers just open the image file
+  var shots = [].slice.call(document.querySelectorAll('.shot-btn'));
+  var img = dlg.querySelector('img'), title = document.getElementById('lb-title'), desc = document.getElementById('lb-desc');
+  var current = 0, opener = null;
+  function show(n) {
+    current = (n + shots.length) % shots.length;
+    var a = shots[current], fig = a.closest('figure');
+    img.src = a.getAttribute('href');
+    img.alt = a.querySelector('img').alt;
+    title.textContent = fig.querySelector('.shot-cat').textContent + ': ' + fig.querySelector('.shot-title').textContent;
+    desc.textContent = fig.querySelector('.shot-desc').textContent;
+  }
+  shots.forEach(function (a, n) {
+    a.addEventListener('click', function (e) { e.preventDefault(); opener = a; show(n); dlg.showModal(); });
+  });
+  dlg.querySelector('.lb-prev').addEventListener('click', function () { show(current - 1); });
+  dlg.querySelector('.lb-next').addEventListener('click', function () { show(current + 1); });
+  dlg.querySelector('.lb-close').addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowLeft') show(current - 1);
+    if (e.key === 'ArrowRight') show(current + 1);
+  });
+  dlg.addEventListener('close', function () { if (opener) opener.focus(); });
+})();
+</script>
+<script>
+/* ---------- Interactive live chat & customer journey demo ---------- */
+(function () {
+  var log = document.getElementById('chat-log'), opts = document.getElementById('chat-options');
+  var compose = document.getElementById('chat-compose'), input = document.getElementById('chat-text');
+  var send = compose ? compose.querySelector('button') : null;
+  var steps = [].slice.call(document.querySelectorAll('#journey li'));
+  if (!log || !opts || !compose || !input || !send) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var data = {}, timers = [], handler = null, lastInput = '', started = false;
+  var QUESTION = 'What can I help you with today? Tap an option or type your question.';
+
+  /* ----- helpers ----- */
+  function stage(n) {
+    steps.forEach(function (li, k) {
+      li.classList.toggle('is-done', k < n);
+      li.classList.toggle('is-active', k === n);
+      if (k === n) li.setAttribute('aria-current', 'step'); else li.removeAttribute('aria-current');
+    });
+  }
+  function scrollDown() { log.scrollTop = log.scrollHeight; }
+  function add(cls, text) {
+    var d = document.createElement('div');
+    d.className = cls; d.textContent = text;
+    log.appendChild(d); scrollDown();
+  }
+  function wait(fn, ms) { timers.push(setTimeout(fn, reduce ? 120 : ms)); }
+  function setBusy(busy) {
+    input.readOnly = busy;
+    send.disabled = busy;
+    input.placeholder = busy ? 'Sales Support is typing…' : 'Type a message…';
+  }
+  /* Bot "types" each line, then runs next() */
+  function bot(lines, next) {
+    opts.innerHTML = ''; handler = null; setBusy(true);
+    var i = 0;
+    (function nextLine() {
+      if (i >= lines.length) { setBusy(false); if (next) next(); return; }
+      var t = document.createElement('div');
+      t.className = 'typing'; t.setAttribute('aria-hidden', 'true'); t.innerHTML = '<i></i><i></i><i></i>';
+      log.appendChild(t); scrollDown();
+      wait(function () {
+        t.remove();
+        var line = lines[i++];
+        if (typeof line === 'function') line(); else add('msg bot', line);
+        nextLine();
+      }, 750);
+    })();
+  }
+  /* Show quick-reply buttons; a tap counts as the visitor's reply */
+  function choices(list) {
+    opts.innerHTML = '';
+    (list || []).forEach(function (c) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'chip'; b.textContent = c[0];
+      b.addEventListener('click', function () { lastInput = 'chip'; handler = null; add('msg user', c[0]); c[1](); });
+      opts.appendChild(b);
+    });
+    scrollDown();                                               // keep the newest message visible above the buttons
+  }
+  /* Ask a question: bot lines, optional quick replies, and what to do with a typed answer */
+  function ask(lines, chipList, onText) {
+    bot(lines, function () {
+      choices(chipList);
+      handler = onText || null;
+      if (!lastInput) return;                                   // don't move focus before the visitor interacts
+      var first = opts.querySelector('button');
+      if (lastInput === 'chip' && first) first.focus({ preventScroll: true });
+      else input.focus({ preventScroll: true });
+    });
+  }
+  /* Typed messages */
+  compose.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var text = input.value.trim();
+    if (!text || input.readOnly || !handler) return;
+    input.value = ''; lastInput = 'text';
+    add('msg user', text);
+    var h = handler; handler = null; h(text);
+  });
+
+  /* ----- conversation ----- */
+  var MENU = [['Request a quotation', quote], ['Ask about services', services], ['Talk to a person', human]];
+
+  function start() {
+    timers.forEach(clearTimeout); timers = [];
+    log.innerHTML = ''; opts.innerHTML = ''; input.value = ''; data = {}; handler = null;
+    setBusy(true);
+    stage(0);
+    add('sys', 'A visitor opens the Services page');
+    wait(function () {
+      stage(1);
+      bot(['Hi there! 👋 Welcome to our website.'], function () { menu(); });
+    }, 900);
+  }
+  function menu(intro) {
+    stage(2);
+    ask(intro ? [intro, QUESTION] : [QUESTION], MENU, route);
+  }
+  /* Understand a typed question */
+  function route(text) {
+    var t = text.toLowerCase();
+    if (/quot|price|cost|estimate|budget|how much/.test(t)) return quote();
+    if (/person|human|agent|someone|talk|call|speak|staff/.test(t)) return human();
+    if (/service|offer|install|mainten|repair|testing|what do you do/.test(t)) return services();
+    if (/^(hi|hello|hey|good (morning|afternoon|evening))\b/.test(t)) return menu('Hello! 😊');
+    if (/thank/.test(t)) return menu('You’re welcome!');
+    menu('Thanks for your message! I’m a demo assistant, so I can help with these topics:');
+  }
+  function services() {
+    ask(['We handle installation, testing, and preventive maintenance for commercial and industrial sites.',
+         'Would you like a quotation, or would you prefer to speak with our team?'],
+        [['Request a quotation', quote], ['Talk to a person', human]], route);
+  }
+  function human() {
+    data.type = 'Talk to a person';
+    ask(['Our team is online during office hours and usually replies within a few minutes.',
+         'So you don’t have to wait, may I take your details first?'],
+        [['Sure, take my details', details], ['Back to the menu', function () { menu('No problem!'); }]],
+        function (text) { if (/^(no|nope|back|menu|not now)/i.test(text)) menu('No problem!'); else details(); });
+  }
+  function quote() {
+    data.type = 'Quotation request';
+    ask(['Happy to help with a quotation. Which service do you need?'],
+        [['Installation', function () { pickService('Installation'); }],
+         ['Maintenance', function () { pickService('Maintenance'); }],
+         ['Not sure yet', function () { pickService('Consultation'); }]],
+        function (text) {
+          var t = text.toLowerCase();
+          pickService(/install/.test(t) ? 'Installation'
+            : /mainten|repair|check|inspect/.test(t) ? 'Maintenance'
+            : /not sure|unsure|don.?t know|consult/.test(t) ? 'Consultation' : text);
+        });
+  }
+  function pickService(s) { data.service = s; facility(); }
+  function facility() {
+    ask(['Got it. What type of facility is this for?'],
+        [['Office / commercial', function () { pickFacility('Office / commercial'); }],
+         ['Warehouse / industrial', function () { pickFacility('Warehouse / industrial'); }],
+         ['Other', function () { pickFacility('Other'); }]],
+        pickFacility);
+  }
+  function pickFacility(f) { data.facility = f; details(); }
+  function details() {
+    stage(3);
+    ask(['Almost done! What name should our team use when they reply?'], [],
+        function (text) { data.name = text; askEmail(); });
+  }
+  function askEmail(msg) {
+    ask([msg || 'Thanks, ' + data.name + '! Which email should we reply to?'], [], function (text) {
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(text)) {
+        return askEmail('Hmm, that email doesn’t look right. Could you check it? (example: name@example.com)');
+      }
+      data.email = text;
+      finish();
+    });
+  }
+  function summary() {
+    var box = document.createElement('div');
+    box.className = 'summary';
+    box.innerHTML = '<b>Inquiry summary sent to the sales team</b><dl></dl>';
+    var dl = box.querySelector('dl');
+    [['Type', data.type], ['Service', data.service], ['Facility', data.facility], ['Name', data.name], ['Reply to', data.email]].forEach(function (row) {
+      if (!row[1]) return;
+      var dt = document.createElement('dt'), dd = document.createElement('dd');
+      dt.textContent = row[0]; dd.textContent = row[1];
+      dl.appendChild(dt); dl.appendChild(dd);
+    });
+    log.appendChild(box); scrollDown();
+  }
+  function finish() {
+    stage(4);
+    ask(['Thank you, ' + data.name + '! ✅ Your request is with our team.', summary,
+         'You’ll receive a reply by email. Is there anything else I can help with?'],
+        [['Restart the demo', start]], ended);
+  }
+  function ended() {
+    ask(['Thanks! This demo ends here. Tap “Restart the demo” to try another path.'], [['Restart the demo', start]], ended);
+  }
+
+  /* ----- start ----- */
+  document.getElementById('chat-restart').addEventListener('click', function () { started = true; start(); });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting && !started) { started = true; start(); io.disconnect(); }
+    }, { threshold: 0.35 });
+    io.observe(log);
+  } else { started = true; start(); }
+})();
+</script>
+</body></html>
